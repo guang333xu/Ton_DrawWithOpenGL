@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B571A3521C239D43009739B9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B571A3511C239D43009739B9 /* GLKit.framework */; };
+		B571A3541C239D4C009739B9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B571A3531C239D4C009739B9 /* OpenGLES.framework */; };
+		B571A3561C239D84009739B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B571A3551C239D84009739B9 /* CoreGraphics.framework */; };
+		B571A3581C239D8F009739B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B571A3571C239D8F009739B9 /* QuartzCore.framework */; };
 		B578A25A1C22B08700C6B47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B578A2591C22B08700C6B47C /* main.m */; };
 		B578A25D1C22B08700C6B47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B578A25C1C22B08700C6B47C /* AppDelegate.m */; };
 		B578A2601C22B08700C6B47C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B578A25F1C22B08700C6B47C /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		B578A2681C22B08700C6B47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B578A2661C22B08700C6B47C /* LaunchScreen.storyboard */; };
 		B578A2731C22B08700C6B47C /* Ton_DrawWithOpenGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B578A2721C22B08700C6B47C /* Ton_DrawWithOpenGLTests.m */; };
 		B578A27E1C22B08700C6B47C /* Ton_DrawWithOpenGLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B578A27D1C22B08700C6B47C /* Ton_DrawWithOpenGLUITests.m */; };
+		B578A28C1C22B40600C6B47C /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B578A28B1C22B40600C6B47C /* Earth.jpg */; };
+		B578A2901C22B53E00C6B47C /* Ton_Transformations.m in Sources */ = {isa = PBXBuildFile; fileRef = B578A28F1C22B53E00C6B47C /* Ton_Transformations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B571A3511C239D43009739B9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B571A3531C239D4C009739B9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B571A3551C239D84009739B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B571A3571C239D8F009739B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B578A2551C22B08700C6B47C /* Ton_DrawWithOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ton_DrawWithOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B578A2591C22B08700C6B47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B578A25B1C22B08700C6B47C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,9 @@
 		B578A2791C22B08700C6B47C /* Ton_DrawWithOpenGLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ton_DrawWithOpenGLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B578A27D1C22B08700C6B47C /* Ton_DrawWithOpenGLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ton_DrawWithOpenGLUITests.m; sourceTree = "<group>"; };
 		B578A27F1C22B08700C6B47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B578A28B1C22B40600C6B47C /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
+		B578A28E1C22B53E00C6B47C /* Ton_Transformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ton_Transformations.h; sourceTree = "<group>"; };
+		B578A28F1C22B53E00C6B47C /* Ton_Transformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ton_Transformations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B571A3581C239D8F009739B9 /* QuartzCore.framework in Frameworks */,
+				B571A3561C239D84009739B9 /* CoreGraphics.framework in Frameworks */,
+				B571A3541C239D4C009739B9 /* OpenGLES.framework in Frameworks */,
+				B571A3521C239D43009739B9 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +95,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B571A3501C239D16009739B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B571A3571C239D8F009739B9 /* QuartzCore.framework */,
+				B571A3551C239D84009739B9 /* CoreGraphics.framework */,
+				B571A3531C239D4C009739B9 /* OpenGLES.framework */,
+				B571A3511C239D43009739B9 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B578A24C1C22B08700C6B47C = {
 			isa = PBXGroup;
 			children = (
+				B571A3501C239D16009739B9 /* Frameworks */,
+				B578A28D1C22B4DD00C6B47C /* Resources */,
 				B578A2571C22B08700C6B47C /* Ton_DrawWithOpenGL */,
 				B578A2711C22B08700C6B47C /* Ton_DrawWithOpenGLTests */,
 				B578A27C1C22B08700C6B47C /* Ton_DrawWithOpenGLUITests */,
@@ -101,6 +131,7 @@
 		B578A2571C22B08700C6B47C /* Ton_DrawWithOpenGL */ = {
 			isa = PBXGroup;
 			children = (
+				B578A28B1C22B40600C6B47C /* Earth.jpg */,
 				B578A25B1C22B08700C6B47C /* AppDelegate.h */,
 				B578A25C1C22B08700C6B47C /* AppDelegate.m */,
 				B578A25E1C22B08700C6B47C /* ViewController.h */,
@@ -138,6 +169,15 @@
 				B578A27F1C22B08700C6B47C /* Info.plist */,
 			);
 			path = Ton_DrawWithOpenGLUITests;
+			sourceTree = "<group>";
+		};
+		B578A28D1C22B4DD00C6B47C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B578A28E1C22B53E00C6B47C /* Ton_Transformations.h */,
+				B578A28F1C22B53E00C6B47C /* Ton_Transformations.m */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +247,6 @@
 				TargetAttributes = {
 					B578A2541C22B08700C6B47C = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 7F4KH3KNWN;
 					};
 					B578A26D1C22B08700C6B47C = {
 						CreatedOnToolsVersion = 7.2;
@@ -246,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B578A28C1C22B40600C6B47C /* Earth.jpg in Resources */,
 				B578A2681C22B08700C6B47C /* LaunchScreen.storyboard in Resources */,
 				B578A2651C22B08700C6B47C /* Assets.xcassets in Resources */,
 				B578A2631C22B08700C6B47C /* Main.storyboard in Resources */,
@@ -275,6 +315,7 @@
 			files = (
 				B578A2601C22B08700C6B47C /* ViewController.m in Sources */,
 				B578A25D1C22B08700C6B47C /* AppDelegate.m in Sources */,
+				B578A2901C22B53E00C6B47C /* Ton_Transformations.m in Sources */,
 				B578A25A1C22B08700C6B47C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +388,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -369,6 +411,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "7e16c3b5-ec9a-411d-8320-173dcbe2828f";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -390,6 +433,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -405,6 +449,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7e16c3b5-ec9a-411d-8320-173dcbe2828f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -414,10 +459,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ton_DrawWithOpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-DrawWithOpenGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -425,10 +473,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Ton_DrawWithOpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wang.Ton-DrawWithOpenGL";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -499,6 +550,7 @@
 				B578A2841C22B08700C6B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B578A2851C22B08700C6B47C /* Build configuration list for PBXNativeTarget "Ton_DrawWithOpenGLTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +559,7 @@
 				B578A2871C22B08700C6B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B578A2881C22B08700C6B47C /* Build configuration list for PBXNativeTarget "Ton_DrawWithOpenGLUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +568,7 @@
 				B578A28A1C22B08700C6B47C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
